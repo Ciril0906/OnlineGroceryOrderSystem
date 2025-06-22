@@ -1,0 +1,3 @@
+# JWT Configuration
+app.jwtSecret=YourSuperStrongSecretKeyForJWTsThatIsAtLeast256BitsLongAndRandomlyGenerated
+app.jwtExpirationMs=86400000 # 24 hours in milliseconds (24 * 60 * 60 * 1000)
